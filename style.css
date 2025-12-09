@@ -1,0 +1,78 @@
+header {
+    background-color: #f00;
+    height: 100px;
+    width: 800px;
+}
+nav {
+    height: 80px;
+    width: 450px;
+    margin-top: 10px;
+    float: right; 
+    margin-right: 112px;
+}
+section {
+    height: 300px;
+    width: 800px;
+    overflow: auto;
+}
+aside {
+    background-color: #00f;
+    height: 300px;
+    width: 126px;
+    float: left;
+}
+article {
+    background-color: #ff0;
+    height: 290px;
+    width: 654px;
+    float: right;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+}
+footer {
+    background-color: #0f0;
+    height: 30px;
+    width: 800px;
+}
+
+.bdytxt{
+    font-family: 'Courier New', Courier, monospace;
+}
+.ftr{ 
+    font-family: 'Courier New', Courier, monospace;
+}
+.ttl{
+    font-weight: bold;
+    font-size: large;
+}
+.subttl{
+    color: white;
+}
+
+div{
+    display: inline-block;
+    width: 50px;
+    height: 80px;
+    margin: 0px;
+}
+div:hover{
+    background-image: url(assets/legosrule.jpg);
+}
+.home{
+    background-image: url(assets/home.jpg);
+}
+.fire{
+    background-image: url(assets/fire.jpg);
+}
+.space{
+    background-image: url(assets/space.jpg);
+}
+.car{
+    background-image: url(assets/car.jpg);
+}
+.viking{
+    background-image: url(assets/viking.jpg);
+}
+.contact{
+    background-image: url(assets/contact.jpg);
+}
